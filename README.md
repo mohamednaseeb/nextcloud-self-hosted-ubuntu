@@ -161,6 +161,121 @@ This project improved my understanding of:
 
 ---
 
+# 🔥 Real-World Troubleshooting Experience
+
+## Problem
+
+After deploying Nextcloud, I was unable to access the application using the custom hostname.
+
+Example:
+
+```
+http://mohamed.supportsages.com:21
+```
+
+---
+
+## Investigation
+
+I verified:
+
+- Ubuntu network configuration
+- Nginx service
+- MariaDB service
+- Listening TCP ports
+- Hostname resolution
+- Browser connectivity
+- Client-server communication
+
+Tools used:
+
+```
+curl
+systemctl
+ss
+ip a
+nano
+journalctl
+```
+
+---
+
+## Root Cause
+
+The issue was related to client-side hostname resolution and browser restricted port behavior.
+
+---
+
+## Solution
+
+- Verified service availability.
+- Tested local and remote connectivity.
+- Configured hostname mapping.
+- Verified browser accessibility.
+- Confirmed successful Nextcloud deployment.
+
+---
+
+## Outcome
+
+Successfully restored access to the self-hosted Nextcloud instance and improved practical Linux networking and troubleshooting skills.
+
 ## Connectivity Test
 
 ![Curl](screenshots/curl-test.png)
+
+
+# 💻 Useful Commands
+
+## Service Status
+
+```bash
+sudo systemctl status nginx
+sudo systemctl status mariadb
+```
+
+## Network
+
+```bash
+ip a
+
+ss -tulpn
+```
+
+## Connectivity
+
+```bash
+curl localhost
+
+curl http://mohamed.supportsages.com
+```
+
+## Permissions
+
+```bash
+sudo chown -R www-data:www-data /var/www/nextcloud
+```
+
+## Restart Services
+
+```bash
+sudo systemctl restart nginx
+
+sudo systemctl restart mariadb
+```
+
+# 📈 Skills Gained
+
+Through this project, I gained practical experience in:
+
+- Linux Server Administration
+- Nginx Configuration
+- MariaDB Management
+- PHP-FPM
+- Nextcloud Deployment
+- Hostname Resolution
+- TCP/IP Networking
+- Service Management
+- Web Application Troubleshooting
+- Client-Server Communication
+- Production-style Debugging
