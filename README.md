@@ -121,43 +121,43 @@ This project improved my understanding of:
 
 ## Ubuntu Version
 
-![Ubuntu](screenshots/ubuntu-version.png)
+![Ubuntu](screenshotss/ubuntu-version.png)
 
 ---
 
 ## Network Configuration
 
-![Network](screenshots/network-interface.png)
+![Network](screenshotss/network-interface.png)
 
 ---
 
 ## Nginx Service
 
-![Nginx](screenshots/nginx-running.png)
+![Nginx](screenshotss/nginx-running.png)
 
 ---
 
 ## MariaDB Service
 
-![MariaDB](screenshots/mariadb-running.png)
+![MariaDB](screenshotss/mariadb-running.png)
 
 ---
 
 ## Listening Ports
 
-![Ports](screenshots/listening-ports.png)
+![Ports](screenshotss/listening-ports.png)
 
 ---
 
 ## Nextcloud Installation
 
-![Install](screenshots/nextcloud-install.png)
+![Install](screenshotss/nextcloud-install.png)
 
 ---
 
 ## Nextcloud Dashboard
 
-![Dashboard](screenshots/nextcloud-dashboard.png)
+![Dashboard](screenshotss/nextcloud-dashboard.png)
 
 ---
 
