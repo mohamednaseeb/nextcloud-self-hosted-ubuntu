@@ -115,3 +115,52 @@ This project improved my understanding of:
 - Automated deployment
 - Monitoring
 - Backup and restore
+
+
+# 📸 Project Screenshots
+
+## Ubuntu Version
+
+![Ubuntu](screenshots/ubuntu-version.png)
+
+---
+
+## Network Configuration
+
+![Network](screenshots/network-interface.png)
+
+---
+
+## Nginx Service
+
+![Nginx](screenshots/nginx-running.png)
+
+---
+
+## MariaDB Service
+
+![MariaDB](screenshots/mariadb-running.png)
+
+---
+
+## Listening Ports
+
+![Ports](screenshots/listening-ports.png)
+
+---
+
+## Nextcloud Installation
+
+![Install](screenshots/nextcloud-install.png)
+
+---
+
+## Nextcloud Dashboard
+
+![Dashboard](screenshots/nextcloud-dashboard.png)
+
+---
+
+## Connectivity Test
+
+![Curl](screenshots/curl-test.png)
